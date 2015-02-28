@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Gotham-med'; /*a name to be used later*/
+    src: url('http://rlandau.com/fonts/GothamHTF-Medium.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'GothamHTF-Book'; /*a name to be used later*/
+    src: url('http://rlandau.com/fonts/GothamHTF-Book.otf'); /*URL to font*/
+}
+
+
+.img-responsive {
+
+    max-height: 414px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body {
+	padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+    font-size: 29px;
+    font-family: 'Gotham-med'
+}
+
+p {
+    text-align: center;
+    color: #000;
+    font-family: 'Garamond';
+    font-size: 18px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	font-family: 'GothamHTF-Book';
+}
+
+li {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#social {
+  width: 232px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+#title {
+	padding-top: 48px;
+	padding-bottom: 25px;
+}
+
+#footer {
+	background-color: #f8f8f8;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#facebook {
+	margin-right: 40px;
+}
+
+#email {
+	margin-right: 40px;
+}
+
+.navbar-default .navbar-brand {
+	color: #000;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #000;
+}
+
+	
